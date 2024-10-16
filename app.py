@@ -26,7 +26,7 @@ bedrock_client = boto3.client(
             'bedrock-runtime',
             region_name=region_name,
             aws_access_key_id=aws_access_key_id,
-            aws_secret_access_key=aws_secret_access_key
+            aws_secret_access_key=aws_secret_access_key )
     
 # Function to call Amazon Bedrock model for Q&A
 def ask_bedrock(question):
