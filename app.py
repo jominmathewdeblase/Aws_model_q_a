@@ -40,7 +40,7 @@ def extract_text_from_pdf(pdf_file):
 def ask_bedrock(question, context=None):
     try:
         # Define the parameters for the Bedrock request
-        model_id = 'amazon.titan-embed-text-v1'  # Replace with the actual Q&A model ID on Bedrock
+        model_id = 'meta.llama3-8b-instruct-v1:0'  # Replace with the actual Q&A model ID on Bedrock
 
         # Prepare input payload for Bedrock model
         payload = {
