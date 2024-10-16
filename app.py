@@ -3,10 +3,10 @@ import boto3
 from botocore.exceptions import BotoCoreError, ClientError
 import json
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 # Load environment variables (for AWS credentials)
-load_dotenv()
+# load_dotenv()
 
 # Streamlit title and description
 st.title("Q&A Model")
