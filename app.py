@@ -49,7 +49,7 @@ def ask_bedrock(question, context=None):
 
         # Call the Amazon Bedrock model
         response = bedrock_client.invoke_model(
-            modelId=model_id,
+            modelId= "mistral.mistral-large-2402-v1:0",
             contentType="application/json",
             accept="application/json",
             body=json.dumps(payload)
